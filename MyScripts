@@ -1,0 +1,214 @@
+if game.PlaceId == 10449761463 then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Finding A Supported";
+Text = "Game...";
+Duration = 10;
+})
+task.wait(2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Found A Supported Game";
+Text = "The Strongest Battleground";
+Duration = 10;
+})
+task.wait(1)
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("The Strongest Battleground", "BloodTheme")
+
+local Tab1 = Window:NewTab("Main")
+local NormalSection = Tab1:NewSection("Normal")
+local MainSection = Tab1:NewSection("1v1 1v1 and others")
+
+NormalSection:NewButton("Middle", "Normal", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(156.496048, 440.755676, 10.8071737))
+end)
+
+MainSection:NewButton("Island", "Island", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(74.1159592, 101.661331, 328.049194))
+end)
+
+MainSection:NewButton("Map", "Map", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(66.033371, 98.2586975, -247.256104))
+end)
+
+MainSection:NewButton("Script", "Script", function()
+while true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(0,50,0))
+wait(2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(0,50,0))
+break
+end
+
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(66.033371, 98.2586975, -247.256104))
+end)
+
+
+
+
+elseif game.PlaceId == 11137575513 then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Finding A Supported";
+Text = "Game...";
+Duration = 10;
+})
+task.wait(2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Found A Supported Game";
+Text = "The Chosen One";
+Duration = 10;
+})
+task.wait(2)
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("The Chosen One", "BloodTheme")
+
+local Tab1 = Window:NewTab("Main")
+local MainSection = Tab1:NewSection("Only Work If You Have Enlighten")
+local PlayerSection = Tab1:NewSection("Players")
+local Tab2 = Window:NewTab("Gears")
+local Gear1Section = Tab2:NewSection("Some Gears")
+local Gear2Section = Tab2:NewSection("Multiple Gears")
+
+---Gears
+Gear1Section:NewButton("Fire", "Sword", function()
+       game.Players:Chat(";gear me 93136746")
+end)
+
+Gear1Section:NewButton("Rainbow Sword", "Rainbow Sword", function()
+  game.Players:Chat(";gear me 159229806")
+end)
+
+Gear1Section:NewButton("Supernova", "Supernova", function()
+  game.Players:Chat(";gear me 108158379")
+end)
+
+---Multiple Gears
+Gear2Section:NewTextBox("Fire Sword", "Fire Sword", function(txt)
+for i = 1,(txt),1 do
+game.Players:Chat(";gear me 93136746")
+task.wait(0.3)
+end
+end)
+
+Gear2Section:NewTextBox("Rainbow Sword", "Rainbow Sword", function(txt)
+for i = 1,(txt),1 do
+game.Players:Chat(";gear me 159229806")
+task.wait(0.3)
+end
+end)
+
+Gear2Section:NewTextBox("Supernova", "Supernova", function(txt)
+for i = 1,(txt),1 do
+game.Players:Chat("gear me 108158379")
+task.wait(0.3)
+end
+end)
+
+
+PlayerSection:NewButton("Respawn", "Respawn", function()
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+MainSection:NewButton("Use when some cube didn't delete", "Use when some cube didn't delete", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(1000,200,1000))
+game.Players:Chat(";ff me")
+game.Players:Chat(";ff me")
+wait(1)
+game.Players:Chat(";explode others 1000000")
+game.Players:Chat(";explode others 1000000")
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(0,1,0))
+end)
+
+---Destroyer
+---Destroyer
+MainSection:NewButton("Destroyer", "Destroyer", function()
+function Cube()
+       game.Players:Chat(";delcubes others")
+       game.Players:Chat(";delcubes others")
+end
+
+task.wait(0.3)
+Cube()
+
+
+function Chat()
+       game.Players:Chat(";mute others")
+       game.Players:Chat(";mute others")
+end
+
+task.wait(0.3)
+Chat()
+
+
+function item()
+       game.Players:Chat(";clearinv others")
+       game.Players:Chat(";clearinv others")
+end
+
+task.wait(0.3)
+item()
+
+
+function freeze()
+       game.Players:Chat(";freeze others")
+       game.Players:Chat(";freeze others")
+end
+
+task.wait(0.3)
+freeze()
+
+
+function Map()
+       game.Players:Chat(";mapsize 1")
+       game.Players:Chat(";mapsize 1")
+end
+
+task.wait(0.3)
+Map()
+
+
+function Game()
+       game.Players:Chat(";hour 24")
+       game.Players:Chat(";hour 24")
+end
+
+task.wait(0.3)
+Game()
+
+
+function Game1()
+       game.Players:Chat(";fog 1")
+       game.Players:Chat(";fog 1")
+end
+
+task.wait(0.3)
+Game1()
+end)
+
+
+
+
+else
+game.StarterGui:SetCore("SendNotification", {
+Title = "Finding Game";
+Text = "Id...";
+Duration = 10;
+})
+task.wait(2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Supported Game Not found";
+Text = "Maybe Find A Supported Game Here";
+Duration = 10;
+})
+task.wait(2)
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Tips", "BloodTheme")
+
+local Tab1 = Window:NewTab("Main")
+local MainSection = Tab1:NewSection("If It's Showing This Then Look Down To See Some")
+MainSection:NewLabel("Instructions")
+MainSection:NewLabel("Supported Game")
+MainSection:NewLabel("The Strongest Battleground")
+MainSection:NewLabel("The Chosen One")
+end
